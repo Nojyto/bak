@@ -1,0 +1,6 @@
+-c requirements.in
+
+# Dev tools
+ruff
+pre-commit
+pip-tools
