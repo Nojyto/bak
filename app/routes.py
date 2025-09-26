@@ -5,6 +5,7 @@ main = Blueprint("main", __name__)
 
 camera = Camera()
 
+
 def generate_frames():
     if not camera.is_running:
         camera.start()

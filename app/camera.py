@@ -1,5 +1,6 @@
-import cv2
 import threading
+import cv2
+
 
 class Camera:
     """A class to manage the camera thread and frame capture."""

@@ -5,6 +5,11 @@ exclude = [".git", "__pycache__", "build", "dist"]
 [tool.ruff.lint]
 select = ["E", "F", "W", "C"]
 per-file-ignores = { "__init__.py" = ["F401"] }
+ignore = [
+    "D100", # Missing docstring in public module
+    "D103", # Missing docstring in public function
+    "D104", # Missing docstring in public package
+]
 
 [tool.ruff.format]
 quote-style = "double"
